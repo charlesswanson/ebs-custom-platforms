@@ -8,9 +8,9 @@
     {
       "type": "amazon-ebs",
       "name": "HVM AMI builder",
-      "region": "eu-central-1",
+      "region": "us-west-1",
       "source_ami": "ami-5652ce39",
-      "instance_type": "t2.small",
+      "instance_type": "t2.micro",
       "ssh_username": "ec2-user",
       "ssh_pty": "true",
       "ami_name": "NGINX and PHP-FPM on Amazon Linux (built on {{isotime \"20060102150405\"}})",

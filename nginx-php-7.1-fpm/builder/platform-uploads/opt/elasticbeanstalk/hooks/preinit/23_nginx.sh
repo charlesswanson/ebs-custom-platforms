@@ -20,10 +20,6 @@ cp -f /opt/elasticbeanstalk/support/conf/nginx/php.conf-7.1 /etc/nginx/default.d
 
 cp -f /opt/elasticbeanstalk/support/conf/nginx/gzip.conf /etc/nginx/conf.d/gzip.conf
 
-cp -f /opt/elasticbeanstalk/support/conf/nginx/ngx_pagespeed.conf /etc/nginx/default.d/ngx_pagespeed.conf 
-
-cp -f /opt/elasticbeanstalk/support/conf/nginx/ngx_pagespeed_module.conf /usr/share/nginx/modules/ngx_pagespeed_module.conf
-
 cp -f /opt/elasticbeanstalk/support/conf/php-fpm/php-fpm.conf /etc/php-fpm-7.1.conf
 
 cp -f /opt/elasticbeanstalk/support/conf/php-fpm/www.conf /etc/php-fpm-7.1.d/www.conf
