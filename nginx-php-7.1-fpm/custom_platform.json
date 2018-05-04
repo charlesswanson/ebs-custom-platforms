@@ -8,8 +8,8 @@
     {
       "type": "amazon-ebs",
       "name": "HVM AMI builder",
-      "region": "us-west-1",
-      "source_ami": "ami-5652ce39",
+      "region": "us-east-1",
+      "source_ami": "ami-cb9ec1b1",
       "instance_type": "t2.micro",
       "ssh_username": "ec2-user",
       "ssh_pty": "true",

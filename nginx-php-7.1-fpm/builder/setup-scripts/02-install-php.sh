@@ -48,4 +48,8 @@ yum install php71 \
             php71-xmlrpc \
             php71-pecl-uuid \
             php71-opcache \
+            php71-pecl-redis \
+            php71-json \
+            php71-zip \
+            php71-pgsql \
             -y
