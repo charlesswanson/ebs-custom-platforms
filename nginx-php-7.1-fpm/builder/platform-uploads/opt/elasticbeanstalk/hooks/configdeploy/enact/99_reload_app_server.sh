@@ -14,5 +14,6 @@
 
 set -e
 
-service nginx restart
+# restart fpm first because it frees up a bunch of memory, restarting nginx first can cause crash
 service php-fpm restart
+service nginx restart
