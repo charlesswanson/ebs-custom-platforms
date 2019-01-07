@@ -13,7 +13,7 @@
       "instance_type": "t2.micro",
       "ssh_username": "ec2-user",
       "ssh_pty": "true",
-      "ami_name": "NGINX and PHP-FPM on Amazon Linux (built on {{isotime \"20060102150405\"}})",
+      "ami_name": "CHP NGINX and PHP-FPM on Amazon Linux (built on {{isotime \"20060102150405\"}})",
       "tags": {
         "eb_platform_name": "{{user `platform_name`}}",
         "eb_platform_version": "{{user `platform_version`}}",
